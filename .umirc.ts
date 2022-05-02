@@ -75,15 +75,18 @@ export default defineConfig({
       apps: [
         {
           name: 'react-demo', // 唯一 id
-          entry: '//localhost:8083/', // html entry
+          // entry: '//localhost:8083/', // html entry
+          entry: '//umijsapp.yji234.xyz/', // html entry
         },
         {
           name: 'react-demo2',
-          entry: '//localhost:3000/',
+          // entry: '//localhost:3000/',
+          entry: '//createreactapp.yji234.xyz/',
         },
         {
           name: 'vue2-demo',
-          entry: '//localhost:8082/',
+          // entry: '//localhost:8082/',
+          entry: '//vuetwo.yji234.xyz/',
         }
       ],
     },
